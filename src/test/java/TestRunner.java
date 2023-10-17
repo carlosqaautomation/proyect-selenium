@@ -9,7 +9,7 @@ import page.BasePage;
         features = "src/test/resources/features",
         plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
         glue = {"glue",},
-        tags = "@caso-4"
+        tags = "@practica"
 )
 public class TestRunner {
     @AfterClass
